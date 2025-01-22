@@ -3,10 +3,10 @@ package com.opstree.microservice.salary;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = SalaryApplicationTests.class)
 class SalaryApplicationTests {
 
-	@Test(classes=SalaryApplicationTests.class)
+	@Test
 	void contextLoads() {
 	}
 
