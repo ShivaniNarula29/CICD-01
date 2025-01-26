@@ -15,7 +15,6 @@ def call() {
             stage('Compile') {
                 steps {
                     echo "Compiling code..."
-                    compileStage()
                     // Add your compile steps here (e.g., mvn clean install or javac)
                 }
             }
