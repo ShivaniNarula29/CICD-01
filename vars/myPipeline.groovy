@@ -14,12 +14,7 @@ def call() {
                 }
             }
           }
-          stage('other steps') {
-            compileStage()    // Compile code using the function from compileStage.groovy
-            checkstyleStage() // Run checkstyle using the function from checkstyleStage.groovy
-            // buildStage()      // Build code using the function from buildStage.groovy
-            // testStage()       // Run tests using the function from testStage.groovy
-           }
+          
       }
     }
 }
