@@ -8,7 +8,7 @@ def call() {
             stage('Checkout') {
                 steps {
                     echo "Checking out the repository..."
-                    git branch: 'main', url: 'https://github.com/himanshu085/CICD-01.git'
+                    git branch: 'main', url: 'https://github.com/ShivaniNarula29/CICD-01.git'
                 }
             }
 
