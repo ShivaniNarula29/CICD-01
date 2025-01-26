@@ -1,7 +1,4 @@
+// In vars/hello.groovy or a similar file
 def call() {
-    script {
-        sh """
-            echo Hi
-        """
-    }
+    echo 'Hello from Shared Library!'
 }
