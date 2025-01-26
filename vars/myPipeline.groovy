@@ -1,10 +1,7 @@
 def call() {
     pipeline {
         agent any
-        triggers {
-            pollSCM('* * * * *')  // Polling SCM every minute for changes
-        }
-         
+        
         stages {
           stage('Code Checkout') {
             steps {
